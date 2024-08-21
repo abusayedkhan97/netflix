@@ -1,0 +1,114 @@
+.signIn {
+  background-color: rgba(0, 0, 0, 0.74);
+  padding: 40px 70px;
+  z-index: 999;
+  color: #fff;
+  height: 70vh;
+  max-width: 315px;
+
+  h1 {
+    margin-top: 0px;
+  }
+
+  h4 {
+    text-align: center;
+    opacity: 0.7;
+    font-weight: 500;
+  }
+
+  input {
+    width: 280px;
+    display: block;
+    font-size: 15px;
+    padding: 18px 15px;
+    margin-top: 20px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.046);
+    color: #fff;
+  }
+
+  #submit {
+    background-color: rgb(230, 0, 0);
+    border: none;
+    color: #fff;
+    width: 100%;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: 0.3s;
+  }
+
+  #submit:hover {
+    background-color: rgb(185, 0, 0);
+  }
+
+  button {
+    background-color: rgba(255, 255, 255, 0.171);
+    border: none;
+    color: #fff;
+    width: 100%;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.139);
+  }
+
+  a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+  }
+
+  #remember {
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .signUp {
+    font-size: 16px;
+    p {
+      color: #bfbfbf;
+    }
+    a {
+      display: inline-block;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    a:hover {
+      opacity: 1;
+    }
+  }
+
+  .learnMore {
+    font-size: 13px;
+    p {
+      color: #aaa;
+    }
+    a {
+      display: inline;
+      cursor: pointer;
+      font-size: 13px;
+      color: #0071eb;
+    }
+
+    a:hover {
+      opacity: 1;
+    }
+  }
+}
